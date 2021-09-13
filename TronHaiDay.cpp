@@ -6,8 +6,8 @@ int main()
 	int T;
 	cin>>T;
 	while(T--){
-		int n, k;
-		cin>>n>>k;
+		int n, k,m;
+		cin>>n>>k>>m;
 		int a[n+k+1];
 		for(int i=0;i<n+k;i++){
 			cin>>a[i];
@@ -16,7 +16,7 @@ int main()
 		for(int i=0;i<n+k;i++){
 			cout<<a[i]<<" ";
 		}
-		cout<<endl;
+		cout<<m<<endl;
 	}
  	return 0;
 }
